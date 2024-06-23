@@ -7,12 +7,10 @@ const app = express();
 const PORT = process.env.PORT || 3003;
 const apiKey = '886fba5b61674926a535fa6e6e51c088';
 
-const corsOptions = {
-  origin: 'https://easydietteste.netlify.app', 
-  optionsSuccessStatus: 200
-};
+app.use(cors({
+    origin: 'http://localhost:3000'
+}));
 
-app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -43,5 +41,5 @@ app.post('/generate-meal-plan', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Servidor está rodando na porta ${PORT}`);
+    console.log(Servidor está rodando na porta ${PORT});
 });
