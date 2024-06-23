@@ -1,0 +1,354 @@
+/* Media Queries */
+@media (max-width: 1800px) {
+  #tela3-box {
+    width: 80vw;
+    height: 40vh;
+  }
+  #tela3-box-forms {
+    width: 100vw;
+    max-width: 600px;
+    height: 130vh;
+  }
+  #titulo-formulario {
+    font-size: 60px;
+  }
+  #texto-formulario {
+    font-size: 22px;
+  }
+  #tela3-box-forms form input[type="text"],
+  #tela3-box-forms form input[type="number"],
+  #tela3-box-forms form select {
+    font-size: 18px;
+    width: 90%;
+  }
+  #tela3-box-forms form h3 {
+    font-size: 19px;
+  }
+  #form-btn {
+    font-size: 20px;
+    padding: 15px 32px;
+    width: 90%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 1600px) {
+  #tela3-box {
+    width: 75vw;
+    height: 35vh;
+  }
+  #tela3-box-forms {
+    width: 75vw;
+    height: 180vh;
+  }
+  #titulo-formulario {
+    font-size: 50px;
+  }
+  #texto-formulario {
+    font-size: 20px;
+  }
+  #tela3-box-forms form input[type="text"],
+  #tela3-box-forms form input[type="number"],
+  #tela3-box-forms form select {
+    font-size: 16px;
+    width: 80%;
+  }
+  #tela3-box-forms form h3 {
+    font-size: 18px;
+  }
+  #form-btn {
+    font-size: 14px;
+    padding: 13px 28px;
+    width: 80%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  #tela3-box {
+    width: 70vw;
+    height: 30vh;
+  }
+  #tela3-box-forms {
+    width: 70vw;
+    height: 220vh;
+  }
+  #titulo-formulario {
+    font-size: 40px;
+  }
+  #texto-formulario {
+    font-size: 18px;
+  }
+  #tela3-box-forms form input[type="text"],
+  #tela3-box-forms form input[type="number"],
+  #tela3-box-forms form select {
+    font-size: 14px;
+    width: 70%;
+  }
+  #tela3-box-forms form h3 {
+    font-size: 17px;
+  }
+  #form-btn {
+    font-size: 12px;
+    padding: 11px 24px;
+    width: 60%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 992px) {
+  #tela3-box {
+    width: 60vw;
+    height: 25vh;
+  }
+  #tela3-box-forms {
+    width: 60vw;
+    height: 210vh;
+  }
+  #titulo-formulario {
+    font-size: 30px;
+  }
+  #texto-formulario {
+    font-size: 16px;
+  }
+  #tela3-box-forms form input[type="text"],
+  #tela3-box-forms form input[type="number"],
+  #tela3-box-forms form select {
+    font-size: 12px;
+    width: 60%;
+  }
+  #tela3-box-forms form h3 {
+    font-size: 16px;
+  }
+  #form-btn {
+    font-size: 10px;
+    padding: 9px 20px;
+    width: 50%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #tela3-box {
+    width: 55vw;
+    height: 20vh;
+  }
+  #tela3-box-forms {
+    width: 55vw;
+    height: 210vh;
+  }
+  #titulo-formulario {
+    font-size: 20px;
+  }
+  #texto-formulario {
+    font-size: 14px;
+  }
+  #tela3-box-forms form input[type="text"],
+  #tela3-box-forms form input[type="number"],
+  #tela3-box-forms form select {
+    font-size: 10px;
+    width: 50%;
+  }
+  #tela3-box-forms form h3 {
+    font-size: 15px;
+  }
+  #form-btn {
+    font-size: 8px;
+    padding: 7px 16px;
+    width: 40%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 576px) {
+  #tela3-box {
+    width: 50vw;
+    height: 15vh;
+  }
+  #tela3-box-forms {
+    width: 50vw;
+    height: 210vh;
+  }
+  #titulo-formulario {
+    font-size: 30px;
+  }
+  #texto-formulario {
+    font-size: 12px;
+  }
+  #tela3-box-forms form input[type="text"],
+  #tela3-box-forms form input[type="number"],
+  #tela3-box-forms form select {
+    font-size: 8px;
+    width: 30%;
+  }
+  #tela3-box-forms form h3 {
+    font-size: 14px;
+  }
+  #form-btn {
+    font-size: 6px;
+    padding: 5px 12px;
+    width: 20%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #tela3-box {
+    width: 45vw;
+    height: 10vh;
+  }
+  #tela3-box-forms {
+    width: 45vw;
+    height: 210vh;
+  }
+  #titulo-formulario {
+    font-size: 20px;
+  }
+  #texto-formulario {
+    font-size: 10px;
+  }
+  #tela3-box-forms form input[type="text"],
+  #tela3-box-forms form input[type="number"],
+  #tela3-box-forms form select {
+    font-size: 6px;
+    width: 20%;
+  }
+  #tela3-box-forms form h3 {
+    font-size: 13px;
+  }
+  #form-btn {
+    font-size: 4px;
+    padding: 3px 8px;
+    width: 10%;
+    align-self: center;
+  }
+}
+
+#tela-formulario {
+  padding-top: 5%;
+  background-size: cover;
+  background-color: #F8F4ED;
+  height: 270vh;
+}
+
+#tela3-box {
+  background-color: #1F5923;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 5vh;
+  padding-top: 10px;
+  margin-bottom: 10vh;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#texto-formulario {
+  color: #F8F4ED;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#titulo-formulario {
+  color: #F8F4ED;
+  padding-top: 30px;
+}
+
+#tela3-box-forms {
+  background-color: #B1F9B1;
+  border-radius: 20px;
+  padding-top: 120px;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding-bottom: 50vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tela3-box-forms form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 200px;
+  font-family: sans-serif;
+  color: #3D3D3D;
+}
+
+#tela3-box-forms form h3 {
+  font-size: 22px;
+  color: #3D3D3D;
+  font-weight: 100;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 100%;
+  padding-left: 5%;
+}
+
+#tela3-box-forms form input[type="text"],
+#tela3-box-forms form input[type="number"],
+#tela3-box-forms form select {
+  border: 2px solid #3D3D3D;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+  align-self: center;
+}
+
+#tela3-box-forms form button {
+  background-color: #1F5923;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  width: 90%;
+}
+
+#form-btn {
+  font-size: 20px;
+  padding: 15px 32px;
+  width: 50%;
+  align-self: center;
+}
+
+#form-btn:hover {
+  background-color: #144A1C;
+}
+
+#tela3-box-forms form input[type="submit"] {
+  background-color: #1F5923;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80%;
+  margin-top: 20px;
+  align-self: center;
+}
+
+#tela3-box-forms form input[type="submit"]:hover {
+  background-color: #144A1C;
+  
+}
+
+#tela3-box-forms form label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 90%;
+  align-self: center;
+}
