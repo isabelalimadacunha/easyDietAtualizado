@@ -221,7 +221,7 @@ function Form() {
           intolerancias
         });
     
-        const response = await fetch('https://easydietteste.netlify.app/generate-meal-plan', {
+        const response = await fetch('http://localhost:3003/generate-meal-plan', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
