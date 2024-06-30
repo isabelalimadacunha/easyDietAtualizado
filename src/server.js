@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3003;
 const apiKey = '886fba5b61674926a535fa6e6e51c088';
 
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://easy-diet-atualizadoteste2.vercel.app'
 }));
 
 app.use(bodyParser.json());
@@ -43,3 +43,5 @@ app.post('/generate-meal-plan', async (req, res) => {
 app.listen(PORT, () => {
     console.log(Servidor está rodando na porta ${PORT});
 });
+module.exports = app;
+module.exports.handler = serverless(app);
