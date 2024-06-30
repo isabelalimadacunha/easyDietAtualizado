@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3003;
 const apiKey = '886fba5b61674926a535fa6e6e51c088';
 
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://easydietteste.netlify.app'
 }));
 
 app.use(bodyParser.json());
